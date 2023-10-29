@@ -16,9 +16,7 @@ namespace OOP_Excercise.Entities
         public string Brand { get; set; }
         public string Model { get; set; }
         public CPU CPU { get; set; }
-        public string RAM { get; set; }
-
-
+        public RAM RAM { get; set; }
         public Storage Storage { get; set; }
 
 
@@ -36,13 +34,15 @@ namespace OOP_Excercise.Entities
         }
 
 
-        public Computer(string brand, string model, CPU cPU, string rAM, Storage storage) : this(brand, model)
+        public Computer(string brand, string model, CPU cPU, RAM rAM, Storage storage) : this(brand, model)
         {
             CPU = cPU;
             RAM = rAM;
             Storage = storage;
 
         }
+
+
     }
 }
 

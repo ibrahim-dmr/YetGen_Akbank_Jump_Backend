@@ -8,23 +8,21 @@ using System.Threading.Tasks;
 
 namespace OOP_Excercise.Entities.ComputerComponents
 {
-    public class Storage
+    public class RAM
     {
-
-        public string Brand { get; set; }
-
+        public string Brand { get; set; }  //Corsair
         public Capacity Capacity { get; set; }
-        public Storage()
-        { 
+
+
+        public RAM()
+        {
 
         }
 
-        public Storage(string brand, Capacity capacity)
+        public RAM(string brand, Capacity capacity)
         {
             Brand = brand;
             Capacity = capacity;
-            
         }
-
     }
 }
