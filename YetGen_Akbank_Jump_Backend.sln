@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Excercise", "OOP_Excercise\OOP_Excercise.csproj", "{D6CB8C38-B69E-43F4-9305-230E41445ED1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Excercise2", "OOP_Excercise2\OOP_Excercise2.csproj", "{4261C551-9FBF-4B81-B957-FA38F81B20CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Excercise2", "OOP_Excercise2\OOP_Excercise2.csproj", "{4261C551-9FBF-4B81-B957-FA38F81B20CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationExcercise", "EncapsulationExcercise\EncapsulationExcercise.csproj", "{37745A52-B1A4-423A-9736-71B22B5E9CA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4261C551-9FBF-4B81-B957-FA38F81B20CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4261C551-9FBF-4B81-B957-FA38F81B20CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4261C551-9FBF-4B81-B957-FA38F81B20CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37745A52-B1A4-423A-9736-71B22B5E9CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37745A52-B1A4-423A-9736-71B22B5E9CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37745A52-B1A4-423A-9736-71B22B5E9CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37745A52-B1A4-423A-9736-71B22B5E9CA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
