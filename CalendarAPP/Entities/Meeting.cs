@@ -1,4 +1,5 @@
-﻿using CalendarAPP.Common;
+﻿using CalendarAPP.Abstract;
+using CalendarAPP.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,17 +8,14 @@ using System.Threading.Tasks;
 
 namespace CalendarAPP.Entities
 {
-    public class Meeting : Event
+    public class Meeting : Event, INotification
     { 
         public List<string> Guests { get; set; }
 
-
-        public Meeting()
+        public void GetNotification()
         {
-        }
-        public Meeting(List<string> guests)
-        {
-            Guests = guests;
+            foreach(var guest in Guests)
+                Console.WriteLine($"Inviting Guests: {guest}");
         }
     }
 }

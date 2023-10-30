@@ -26,3 +26,6 @@ ToDo todo1 = new ()
     Importance = "High Priority"
 };
 
+meeting1.GetNotification();
+
+todo1.GetNotification();

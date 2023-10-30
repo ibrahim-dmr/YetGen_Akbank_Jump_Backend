@@ -1,4 +1,5 @@
-﻿using CalendarAPP.Common;
+﻿using CalendarAPP.Abstract;
+using CalendarAPP.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,17 +8,13 @@ using System.Threading.Tasks;
 
 namespace CalendarAPP.Entities
 {
-    public class ToDo : Event
+    public class ToDo : Event, INotification
     {
         public string Importance { get; set; }
 
-
-        public ToDo()
+        public void GetNotification()
         {
-        }
-        public ToDo(string ımportance)
-        {
-            Importance = ımportance;
+            Console.WriteLine($"Time to make this ToDo: {Title}");
         }
     }
 }
