@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExample", "Interfa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductShipping", "ProductShipping\ProductShipping.csproj", "{C759D3A4-58E4-4DA4-BC98-408F2A0AD455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExample2", "InterfaceExample2\InterfaceExample2.csproj", "{41525ECF-F34A-4BB9-BA9D-48913486B10F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExample2", "InterfaceExample2\InterfaceExample2.csproj", "{41525ECF-F34A-4BB9-BA9D-48913486B10F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodsExample", "ExtensionMethodsExample\ExtensionMethodsExample.csproj", "{4983E795-8B1D-47C7-8A75-6BA176014C6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethodsExample", "ExtensionMethodsExample\ExtensionMethodsExample.csproj", "{4983E795-8B1D-47C7-8A75-6BA176014C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreelancerApp", "FreelancerApp\FreelancerApp.csproj", "{93214163-79C2-4755-A3E6-7C752DB16EBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{4983E795-8B1D-47C7-8A75-6BA176014C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4983E795-8B1D-47C7-8A75-6BA176014C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4983E795-8B1D-47C7-8A75-6BA176014C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93214163-79C2-4755-A3E6-7C752DB16EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93214163-79C2-4755-A3E6-7C752DB16EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93214163-79C2-4755-A3E6-7C752DB16EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93214163-79C2-4755-A3E6-7C752DB16EBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
