@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethodsExample", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreelancerApp", "FreelancerApp\FreelancerApp.csproj", "{93214163-79C2-4755-A3E6-7C752DB16EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMethods", "LinqMethods\LinqMethods.csproj", "{A8DA5F4D-5249-480B-BD30-655F58F3123F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqMethods", "LinqMethods\LinqMethods.csproj", "{A8DA5F4D-5249-480B-BD30-655F58F3123F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMethodsExcercises", "LinqMethodsExcercises\LinqMethodsExcercises.csproj", "{C3DB4B87-D2A4-4EB6-8955-DEBE67B04069}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{A8DA5F4D-5249-480B-BD30-655F58F3123F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8DA5F4D-5249-480B-BD30-655F58F3123F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8DA5F4D-5249-480B-BD30-655F58F3123F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DB4B87-D2A4-4EB6-8955-DEBE67B04069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DB4B87-D2A4-4EB6-8955-DEBE67B04069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DB4B87-D2A4-4EB6-8955-DEBE67B04069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DB4B87-D2A4-4EB6-8955-DEBE67B04069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
