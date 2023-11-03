@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqMethodsExcercises", "Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWork_InMemory", "EntityFrameWork_InMemory\EntityFrameWork_InMemory.csproj", "{3EFF35A7-46A5-468C-AD0C-39D9A0B3E5D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore_InMemoryExercises", "EFCore_InMemoryExercises\EFCore_InMemoryExercises.csproj", "{F76403D4-A435-413D-8332-EAE72FBE9399}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{3EFF35A7-46A5-468C-AD0C-39D9A0B3E5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EFF35A7-46A5-468C-AD0C-39D9A0B3E5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EFF35A7-46A5-468C-AD0C-39D9A0B3E5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76403D4-A435-413D-8332-EAE72FBE9399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76403D4-A435-413D-8332-EAE72FBE9399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76403D4-A435-413D-8332-EAE72FBE9399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76403D4-A435-413D-8332-EAE72FBE9399}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
